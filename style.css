@@ -71,7 +71,7 @@ body {
 }
 
 .bento-grid .item {
-  border-color: 0.5rem;
+  border-radius: 0.5rem;
   overflow: hidden;
 }
 
@@ -90,7 +90,10 @@ body {
 }
 
 .bento-grid .item:nth-child(4),
-.bento-grid .item:nth-child(6),
+.bento-grid .item:nth-child(6) {
+  background-color: var(--yellow-500);
+}
+
 .bento-grid .item:nth-child(8) {
   background-color: var(--purple-500);
 }
